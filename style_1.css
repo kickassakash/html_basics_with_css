@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family:monsterrat;
+    background-image: url(scs.jpg);
+    background-size:cover;
+    /* background-color: (0,0,0,0.1); */
+    /* background-position:center; */
+}
+/* table{
+    background-color: white;
+    dispaly:block;
+    width:auto;
+    font-size: 20px;
+} */
+/* h2{
+    color:white;
+    font-style:italic;
+} */
+#my-info{
+    margin: 200px 0px
+    0px 40px;
+    font-size: 40px;
+    color: white;
+    /* opacity: 1; */
+}
+#idk{
+    background-color: white;
+    width:140px;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px 0px 0px 50px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 25px white;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav{
+    background:rgba(0, 130,230, 0.7);
+    height:80px;
+    width:100%;
+
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin:0px 20px;
+}
+nav ul li a {
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
